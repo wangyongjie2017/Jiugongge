@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 0 auto;
+    width: 270px;
+    height: 270px;
+    background: blue;
+}
+
+.inner{
+    width: 100px;
+    height: 100px;
+    background: red;
+    float: left;
+    border:10px solid green;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+.inner:hover{
+    position: relative;
+    border:10px solid #000;
+}

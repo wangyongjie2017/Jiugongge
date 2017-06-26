@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 750px;
+    height: 540px;
+    // background: blue;
+}
+
+.size {
+    width: 250px;
+    height: 180px;
+    // background: red;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.size img {
+    line-height: 168px;
+    width: 168px;
+    height: 168px;
+    display: block;
+    /*为了定位居中*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.size:hover {
+    border: 1px solid #337AB7;
+}
